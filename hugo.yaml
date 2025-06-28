@@ -5,8 +5,8 @@ theme: docsy
 
 # Site params
 params:
-  github_repo: ''  # Leave empty if not using GitHub
-  github_branch: 'master'
+  github_repo: 'https://github.com/adaptive-flow-ltd/adaptive-flow-site'  # Leave empty if not using GitHub
+  github_branch: 'main'
   
   # UI customization
   ui:
