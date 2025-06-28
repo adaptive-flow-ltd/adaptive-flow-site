@@ -9,7 +9,7 @@ params:
     - "/images/adaptive-flow-sailboat.png"
 ---
 
-{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="primary" image="/images/adaptive-flow-sailboat.png">}}
+{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="af-primary" image="/images/adaptive-flow-sailboat.png">}}
 <div class="hero-section">
   <div class="container">
     <h1 class="hero-title">Find the Optimal Path</h1>
@@ -19,7 +19,7 @@ params:
 </div>
 {{< /blocks/cover >}}
 
-{{< blocks/section color="secondary" >}}
+{{< blocks/section color="af-secondary" >}}
 <div class="container section-padding" id="problem">
   <div class="row">
     <div class="col-12">
@@ -43,7 +43,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="primary" >}}
+{{< blocks/section color="af-primary" >}}
 <div class="container section-padding" id="services">
   <div class="row">
     <div class="col-12">
@@ -110,7 +110,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="secondary" >}}
+{{< blocks/section color="af-secondary" >}}
 <div class="container section-padding" id="benefits">
   <div class="row">
     <div class="col-12">
@@ -136,7 +136,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="primary" >}}
+{{< blocks/section color="af-primary" >}}
 <div class="container section-padding" id="about">
   <div class="row">
     <div class="col-12">
@@ -153,7 +153,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="secondary" >}}
+{{< blocks/section color="af-secondary" >}}
 <div class="container section-padding" id="contact">
   <div class="row">
     <div class="col-12">
@@ -178,7 +178,7 @@ params:
         
         <div class="contact-item justify-content-center">
           <i class="fab fa-linkedin contact-icon"></i>
-          <span><a href="https:linkedin.com/company/adaptive-flow/">linkedin.com/company/adaptive-flow</a></span>
+          <span><a href="https://linkedin.com/company/adaptive-flow/">linkedin.com/company/adaptive-flow</a></span>
         </div>
         
         <div style="margin-top: 2rem;">
