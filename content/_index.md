@@ -9,7 +9,7 @@ params:
     - "/images/adaptive-flow-sailboat.png"
 ---
 
-{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="af-primary" image="/images/adaptive-flow-sailboat.png">}}
+{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="max" color="overlay" image="/images/adaptive-flow-sailboat.png">}}
 <div class="hero-section">
   <div class="container">
     <h1 class="hero-title">Find the Optimal Path</h1>
