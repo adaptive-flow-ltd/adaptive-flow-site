@@ -6,7 +6,7 @@ menu:
     weight: 10
 ---
 
-{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="rebeccapurple" >}}
+{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="#542b6b" >}}
 <div class="hero-section">
   <div class="container">
     <h1 class="hero-title">Find the Optimal Path</h1>
@@ -16,7 +16,7 @@ menu:
 </div>
 {{< /blocks/cover >}}
 
-{{< blocks/section color="aqua" >}}
+{{< blocks/section color="#009ca6" >}}
 <div class="container section-padding" id="problem">
   <div class="row">
     <div class="col-12">
@@ -40,7 +40,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="orange" >}}
+{{< blocks/section color="#542b6b" >}}
 <div class="container section-padding" id="services">
   <div class="row">
     <div class="col-12">
@@ -107,7 +107,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="primary" >}}
+{{< blocks/section color="#542b6b" >}}
 <div class="container section-padding" id="benefits">
   <div class="row">
     <div class="col-12">
@@ -133,7 +133,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="white" >}}
+{{< blocks/section color="009ca6" >}}
 <div class="container section-padding" id="about">
   <div class="row">
     <div class="col-12">
@@ -150,7 +150,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="light" >}}
+{{< blocks/section color="#542b6b" >}}
 <div class="container section-padding" id="contact">
   <div class="row">
     <div class="col-12">
@@ -175,7 +175,7 @@ menu:
         
         <div class="contact-item justify-content-center">
           <i class="fab fa-linkedin contact-icon"></i>
-          <span>linkedin.com/company/adaptive-flow-ltd</span>
+          <span>linkedin.com/company/adaptive-flow</span>
         </div>
         
         <div style="margin-top: 2rem;">
