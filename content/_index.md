@@ -9,7 +9,7 @@ params:
     - "/static/images/adaptive-flow-sailboat.png"
 ---
 
-{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="primary" >}}
+{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="primary" image="/static/images/adaptive-flow-sailboat.png">}}
 <div class="hero-section">
   <div class="container">
     <h1 class="hero-title">Find the Optimal Path</h1>
@@ -168,17 +168,17 @@ params:
         
         <div class="contact-item justify-content-center">
           <i class="fas fa-envelope contact-icon"></i>
-          <span>info@adaptiveflow.ca</span>
+          <span><a href="mailto:info@adaptiveflow.ca">info@adaptiveflow.ca</a></span>
         </div>
         
         <div class="contact-item justify-content-center">
           <i class="fas fa-phone contact-icon"></i>
-          <span>+1 (647) 223-5556</span>
+          <span><a href="tel:16472235556">+1 (647) 223-5556</a></span>
         </div>
         
         <div class="contact-item justify-content-center">
           <i class="fab fa-linkedin contact-icon"></i>
-          <span>linkedin.com/company/adaptive-flow</span>
+          <span><a href="https:linkedin.com/company/adaptive-flow/">linkedin.com/company/adaptive-flow</a></span>
         </div>
         
         <div style="margin-top: 2rem;">
