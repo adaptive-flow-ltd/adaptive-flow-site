@@ -6,7 +6,7 @@ menu:
     weight: 10
 ---
 
-{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="#542b6b" >}}
+{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="primary" >}}
 <div class="hero-section">
   <div class="container">
     <h1 class="hero-title">Find the Optimal Path</h1>
@@ -16,7 +16,7 @@ menu:
 </div>
 {{< /blocks/cover >}}
 
-{{< blocks/section color="#009ca6" >}}
+{{< blocks/section color="secondary" >}}
 <div class="container section-padding" id="problem">
   <div class="row">
     <div class="col-12">
@@ -40,7 +40,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="#542b6b" >}}
+{{< blocks/section color="primary" >}}
 <div class="container section-padding" id="services">
   <div class="row">
     <div class="col-12">
@@ -107,7 +107,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="#542b6b" >}}
+{{< blocks/section color="secondary" >}}
 <div class="container section-padding" id="benefits">
   <div class="row">
     <div class="col-12">
@@ -133,7 +133,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="009ca6" >}}
+{{< blocks/section color="primary" >}}
 <div class="container section-padding" id="about">
   <div class="row">
     <div class="col-12">
@@ -150,7 +150,7 @@ menu:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="#542b6b" >}}
+{{< blocks/section color="secondary" >}}
 <div class="container section-padding" id="contact">
   <div class="row">
     <div class="col-12">
