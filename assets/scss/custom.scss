@@ -1,0 +1,210 @@
+/* Adaptive Flow Custom Styles */
+
+:root {
+  --af-primary: #7c3aed;      /* Purple */
+  --af-secondary: #06b6d4;    /* Aqua */
+  --af-accent: #f97316;       /* Orange */
+  --af-dark: #1f2937;         /* Dark gray */
+  --af-light: #f9fafb;        /* Light gray */
+}
+
+/* Override Docsy primary color */
+$primary: var(--af-primary);
+$secondary: var(--af-secondary);
+
+/* Header styling */
+.td-navbar {
+  background: linear-gradient(135deg, var(--af-primary) 0%, var(--af-secondary) 100%);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.navbar-brand img {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(135deg, var(--af-dark) 0%, var(--af-primary) 100%);
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(45deg, white, var(--af-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.hero-tagline {
+  font-size: 1.1rem;
+  color: var(--af-secondary);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Section styling */
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--af-primary);
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #6b7280;
+}
+
+/* Services grid */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid var(--af-secondary);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+.service-icon {
+  font-size: 2.5rem;
+  color: var(--af-primary);
+  margin-bottom: 1rem;
+}
+
+.service-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--af-dark);
+}
+
+/* Problem/Solution section */
+.problem-solution {
+  background: linear-gradient(135deg, var(--af-light) 0%, rgba(6, 182, 212, 0.1) 100%);
+}
+
+.problem-box, .solution-box {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.problem-box {
+  border-left: 5px solid var(--af-accent);
+}
+
+.solution-box {
+  border-left: 5px solid var(--af-secondary);
+}
+
+/* CTA section */
+.cta-section {
+  background: linear-gradient(135deg, var(--af-primary) 0%, var(--af-secondary) 100%);
+  color: white;
+  text-align: center;
+}
+
+.cta-button {
+  background: var(--af-accent);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  margin-top: 1rem;
+}
+
+.cta-button:hover {
+  background: #ea580c;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  color: white;
+  text-decoration: none;
+}
+
+/* Contact section */
+.contact-section {
+  background: var(--af-light);
+}
+
+.contact-info {
+  background: white;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  color: var(--af-primary);
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Footer */
+.td-footer {
+  background: var(--af-dark);
+  color: white;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+}
