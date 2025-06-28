@@ -3,7 +3,10 @@ title: "Adaptive Flow"
 linkTitle: "Home"
 menu:
   main:
-    weight: 10
+    weight: 20
+params:
+  images:
+    - "/static/images/adaptive-flow-sailboat.png"
 ---
 
 {{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="primary" >}}
