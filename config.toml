@@ -1,3 +1,34 @@
-baseURL = 'https://adaptiveflow.ca/'
-languageCode = 'en-us'
+baseURL = '/'
 title = 'Adaptive Flow'
+description = "Adaptive Flow helps you find the Optimal Path."
+enableRobotsTXT = true
+theme = ["docsy"]
+
+enableGitInfo = true
+
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+disableKinds = ["taxonomy"]
+ignoreFiles = []
+
+[outputs]
+section = [ "HTML" ]
+
+[params.drawio]
+enable = true
+
+[imaging]
+  resampleFilter = "CatmullRom"
+  quality = 75
+  anchor = "smart"
+
+[languages]
+  [languages.en]
+    title = "Adaptive Flow"
+    languageName ="English"
+    weight = 1
+
+    [languages.en.params]
+      description = "Adaptive Flow helps you find the Optimal Path."
