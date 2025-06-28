@@ -19,7 +19,7 @@ params:
 </div>
 {{< /blocks/cover >}}
 
-{{< blocks/section color="af-secondary" >}}
+{{< blocks/section color="secondary" >}}
 <div class="container section-padding" id="problem">
   <div class="row">
     <div class="col-12">
@@ -43,7 +43,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="af-primary" >}}
+{{< blocks/section color="primary" >}}
 <div class="container section-padding" id="services">
   <div class="row">
     <div class="col-12">
@@ -110,7 +110,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="af-secondary" >}}
+{{< blocks/section color="secondary" >}}
 <div class="container section-padding" id="benefits">
   <div class="row">
     <div class="col-12">
@@ -136,7 +136,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="af-primary" >}}
+{{< blocks/section color="primary" >}}
 <div class="container section-padding" id="about">
   <div class="row">
     <div class="col-12">
@@ -153,7 +153,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="af-secondary" >}}
+{{< blocks/section color="secondary" >}}
 <div class="container section-padding" id="contact">
   <div class="row">
     <div class="col-12">
