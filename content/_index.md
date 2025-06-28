@@ -6,10 +6,10 @@ menu:
     weight: 20
 params:
   images:
-    - "/static/images/adaptive-flow-sailboat.png"
+    - "/images/adaptive-flow-sailboat.png"
 ---
 
-{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="primary" image="/static/images/adaptive-flow-sailboat.png">}}
+{{< blocks/cover title="Adaptive Flow" image_anchor="center" height="full" color="primary" image="/images/adaptive-flow-sailboat.png">}}
 <div class="hero-section">
   <div class="container">
     <h1 class="hero-title">Find the Optimal Path</h1>
