@@ -1,20 +1,28 @@
 /* Adaptive Flow Custom Styles */
 
+// SCSS Variables first
+$af-primary: #542b6b;      /* Purple */
+$af-secondary: #009ca6;    /* Aqua */
+$af-accent: #f97316;       /* Orange */
+$af-dark: #374151;         /* Dark gray */
+$af-light: #f3f4f6;        /* Light gray */
+
+// CSS Custom Properties for runtime use
 :root {
-  --af-primary: #542b6b;      /* Purple */
-  --af-secondary: #009ca6;    /* Aqua */
-  --af-accent: #ffffff;       /* Orange */
-  --af-dark: #542b6b;         /* Dark gray */
-  --af-light: #009ca6;        /* Light gray */
+  --af-primary: #{$af-primary};
+  --af-secondary: #{$af-secondary};
+  --af-accent: #{$af-accent};
+  --af-dark: #{$af-dark};
+  --af-light: #{$af-light};
 }
 
-/* Override Docsy primary color */
-$primary: var(--af-primary);
-$secondary: var(--af-secondary);
+// Override Docsy colors
+$primary: $af-primary;
+$secondary: $af-secondary;
 
 /* Header styling */
 .td-navbar {
-  background: linear-gradient(135deg, var(--af-primary) 0%, var(--af-secondary) 100%);
+  background: linear-gradient(135deg, $af-primary 0%, $af-secondary 100%);
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
@@ -23,19 +31,32 @@ $secondary: var(--af-secondary);
   width: auto;
 }
 
-/* Hero section */
+/* Hero section / Cover block styling */
+.td-cover {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  position: relative;
+  min-height: 100vh;
+}
+
+.td-overlay {
+  background: linear-gradient(135deg, rgba($af-dark, 0.8) 0%, rgba($af-primary, 0.8) 100%);
+}
+
 .hero-section {
-  background: linear-gradient(135deg, var(--af-dark) 0%, var(--af-primary) 100%);
   color: white;
   padding: 80px 0;
   text-align: center;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-title {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
-  background: linear-gradient(45deg, white, var(--af-secondary));
+  background: linear-gradient(45deg, white, $af-secondary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -49,7 +70,7 @@ $secondary: var(--af-secondary);
 
 .hero-tagline {
   font-size: 1.1rem;
-  color: var(--af-secondary);
+  color: $af-secondary;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -65,7 +86,7 @@ $secondary: var(--af-secondary);
   font-weight: 700;
   text-align: center;
   margin-bottom: 3rem;
-  color: var(--af-primary);
+  color: $af-primary;
 }
 
 .section-subtitle {
@@ -89,7 +110,7 @@ $secondary: var(--af-secondary);
   padding: 2rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-top: 4px solid var(--af-secondary);
+  border-top: 4px solid $af-secondary;
 }
 
 .service-card:hover {
@@ -99,7 +120,7 @@ $secondary: var(--af-secondary);
 
 .service-icon {
   font-size: 2.5rem;
-  color: var(--af-primary);
+  color: $af-primary;
   margin-bottom: 1rem;
 }
 
@@ -107,12 +128,12 @@ $secondary: var(--af-secondary);
   font-size: 1.3rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: var(--af-dark);
+  color: $af-dark;
 }
 
 /* Problem/Solution section */
 .problem-solution {
-  background: linear-gradient(135deg, var(--af-light) 0%, rgba(6, 182, 212, 0.1) 100%);
+  background: linear-gradient(135deg, $af-light 0%, rgba(6, 182, 212, 0.1) 100%);
 }
 
 .problem-box, .solution-box {
@@ -124,22 +145,22 @@ $secondary: var(--af-secondary);
 }
 
 .problem-box {
-  border-left: 5px solid var(--af-accent);
+  border-left: 5px solid $af-accent;
 }
 
 .solution-box {
-  border-left: 5px solid var(--af-secondary);
+  border-left: 5px solid $af-secondary;
 }
 
 /* CTA section */
 .cta-section {
-  background: linear-gradient(135deg, var(--af-primary) 0%, var(--af-secondary) 100%);
+  background: linear-gradient(135deg, $af-primary 0%, $af-secondary 100%);
   color: white;
   text-align: center;
 }
 
 .cta-button {
-  background: var(--af-accent);
+  background: $af-accent;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -153,7 +174,7 @@ $secondary: var(--af-secondary);
 }
 
 .cta-button:hover {
-  background: #ea580c;
+  background: darken($af-accent, 10%);
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   color: white;
@@ -162,7 +183,7 @@ $secondary: var(--af-secondary);
 
 /* Contact section */
 .contact-section {
-  background: var(--af-light);
+  background: $af-light;
 }
 
 .contact-info {
@@ -179,14 +200,14 @@ $secondary: var(--af-secondary);
 }
 
 .contact-icon {
-  color: var(--af-primary);
+  color: $af-primary;
   margin-right: 1rem;
   font-size: 1.2rem;
 }
 
 /* Footer */
 .td-footer {
-  background: var(--af-dark);
+  background: $af-dark;
   color: white;
 }
 

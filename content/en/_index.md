@@ -1,9 +1,6 @@
 ---
 title: "Adaptive Flow"
 linkTitle: "Home"
-menu:
-  main:
-    weight: 20
 params:
   images:
     - "/images/adaptive-flow-sailboat.png"
