@@ -2,11 +2,11 @@ baseURL = '/'
 title = 'Adaptive Flow'
 description = "Adaptive Flow helps you find the Optimal Path."
 enableRobotsTXT = true
-theme = ["docsy"]
+# theme = ["docsy"]  # Using Hugo modules instead
 
 enableGitInfo = true
 
-contentDir = "content/en"
+contentDir = "content"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableMissingTranslationPlaceholders = true
