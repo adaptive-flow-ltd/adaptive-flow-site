@@ -150,7 +150,7 @@ params:
 </div>
 {{< /blocks/section >}}
 
-{{< blocks/section color="secondary" >}}
+{{< blocks/section color="white" >}}
 <div class="container section-padding" id="contact">
   <div class="row">
     <div class="col-12">
