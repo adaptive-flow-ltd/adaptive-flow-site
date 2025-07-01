@@ -26,13 +26,13 @@ params:
   <div class="row">
     <div class="col-md-6">
       <div class="problem-box">
-        <h3><i class="fas fa-exclamation-triangle" style="color: var(--af-accent);"></i> The Challenge</h3>
+        <h3><i class="fas fa-exclamation-triangle" style="color: white;"></i> The Challenge</h3>
         <p>Is your organization feeling the pressure to deliver more, faster, and better? Outdated systems and disjointed processes can hinder customer connections and frustrate your team.</p>
       </div>
     </div>
     <div class="col-md-6">
       <div class="solution-box">
-        <h3><i class="fas fa-lightbulb" style="color: var(--af-secondary);"></i> Our Solution</h3>
+        <h3><i class="fas fa-lightbulb" style="color: white;"></i> Our Solution</h3>
         <p>We offer a revolutionary approach: AI-powered digital transformation. Our expertise helps you bridge the gap between where you are and where you need to be.</p>
       </div>
     </div>
@@ -42,14 +42,11 @@ params:
 
 {{< blocks/section color="primary" >}}
 <div class="container section-padding" id="services">
-  <div class="row">
+  <div class="services-grid">
     <div class="col-12">
       <h2 class="section-title">Our Services</h2>
       <p class="section-subtitle">Comprehensive solutions to transform your organization</p>
     </div>
-  </div>
-  
-  <div class="services-grid">
     <div class="service-card">
       <div class="service-icon"><i class="fas fa-sync-alt"></i></div>
       <h3 class="service-title">Agile Transformation</h3>
@@ -117,14 +114,14 @@ params:
   <div class="row text-center">
     <div class="col-md-6 mb-4">
       <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 12px;">
-        <i class="fas fa-users fa-3x mb-3" style="color: var(--af-secondary);"></i>
+        <i class="fas fa-users fa-3x mb-3" style="color: white;"></i>
         <h3 style="color: white;">Supercharge Customer Engagement</h3>
         <p style="color: rgba(255,255,255,0.9);">Predict needs, personalize journeys, and provide seamless support that builds lasting relationships.</p>
       </div>
     </div>
     <div class="col-md-6 mb-4">
       <div style="background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 12px;">
-        <i class="fas fa-rocket fa-3x mb-3" style="color: var(--af-secondary);"></i>
+        <i class="fas fa-rocket fa-3x mb-3" style="color: white;"></i>
         <h3 style="color: white;">Boost Employee Satisfaction</h3>
         <p style="color: rgba(255,255,255,0.9);">Free your team from manual burdens, provide intuitive tools, and create an environment where innovation thrives.</p>
       </div>
